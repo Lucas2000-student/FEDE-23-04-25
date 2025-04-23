@@ -1,0 +1,54 @@
+{
+    "login":[
+        {
+            "id":1,
+            "nome":"Administrador",
+            "usuario":"admin",
+            "senha":"5534",
+            "status":"ativo"
+        },
+        {
+            "id":2,
+            "nome":"Katia",
+            "usuario":"Katia49",
+            "senha":"k49y",
+            "status":"ativo"
+        },
+        {
+            "id":3,
+            "nome":"Lucas",
+            "usuario":"Luc2000",
+            "senha":"Luc2000as",
+            "status":"ativo"
+        }
+    ],
+    "funcionarios":[
+        {
+            "id":1,
+            "nome":"Diego",
+            "cpf":"444.333.222-11",
+            "email": "diego@gmail.com",
+            "dtNascimento": "1980-01-01",
+            "dtAdimissao": "2020-02-25",
+            "status": "ativo"
+        },
+        {
+            "id":2,
+            "nome":"Clarisse",
+            "cpf":"333.444.111-22",
+            "email": "clara@gmail.com",
+            "dtNascimento": "2000-02-25",
+            "dtAdimissao": "2020-02-25",
+            "status": "ativo"
+        },
+        {
+            "id":1,
+            "nome":"Carlos",
+            "cpf":"111.222.333-44",
+            "email": "carlin@gmail.com",
+            "dtNascimento": "1950-03-15",
+            "dtAdimissao": "2005-02-25",
+            "status": "demitido"
+        }
+    ]
+}
