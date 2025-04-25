@@ -2,7 +2,7 @@
 
 import api from "@/services/api"
 import Link from "next/link"
-import { useRouter } from "next/router"
+import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 
 interface Usuario {
@@ -34,11 +34,17 @@ export default function login() {
                         return (
                             <li key={usuario.id} onClick={function () {
                                 router.push(`/login/${usuario.id}`)
-                            }}>
+                            }}
+                                style={{
+                                    border: "1px solid black",
+                                    padding: "10px",
+                                    marginBottom: "10px",
+                                    cursor: "pointer",
+                                    borderRadius: "5px"
+                                }}>
                                 <p><strong>Nome: </strong>{usuario.nome}</p>
                                 <p><strong>Usuário: </strong>{usuario.usuario}</p>
                                 <p><strong>Status: </strong>{usuario.status}</p>
-                                <hr />
                             </li>
                         )
                     }
